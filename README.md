@@ -1,10 +1,11 @@
-# Window Utils
+# Tkinter Helping Functions
 
-window_utils is a Python library for managing active windows and displaying always-on-top dialogs using Tkinter.
+This module provides utility functions to enhance the functionality of Tkinter dialogs, including always-on-top dialogs and user input dialogs.
 
 ## Features
-- **Always-on-top dialogs**: Display Tkinter dialogs that stay on top.
-- **User input handling**: Create input dialogs with validation.
+
+- Always-on-top Tkinter dialogs
+- User input dialog with customizable title, display text, and default value
 
 ## Installation
 ```sh
