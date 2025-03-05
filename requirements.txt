@@ -1,2 +1,0 @@
-PyGetWindow==0.0.9
-setuptools==75.1.0

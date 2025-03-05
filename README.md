@@ -5,8 +5,7 @@ window_utils is a Python library for managing active windows and displaying alwa
 ## Features
 - **Always-on-top dialogs**: Display Tkinter dialogs that stay on top.
 - **User input handling**: Create input dialogs with validation.
-- **Window selection**: Activate and bring windows to the front.
 
 ## Installation
 ```sh
-pip install window-utils
+pip install git+https://github.com/SameerArif64/Tkinter-Helping-Functions
