@@ -1,16 +1,10 @@
 from setuptools import setup, find_packages
 
-with open("requirements.txt") as f:
-    requirements, dependency_links = [], []
-    for line in f:
-        (dependency_links if line.startswith("git+") else requirements).append(line.strip())
-
 setup(
     name="tkinter_helping_func",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=requirements,
-    dependency_links=dependency_links,
+    install_requires = [line.strip() for line in open("requirements.txt") if line.strip()],
     author="Sameer Arif",
     author_email="supersameer64@gmail.com",
     description="A Python utility library for managing active windows and displaying always-on-top dialogs.",
